@@ -8,7 +8,7 @@ import controller.AnnotationController;
 public class LectaHub {
     
     public static void main(String[] args) {
-        // تهيئة النظام
+          // تجهيز النظام
         AnnotationView view = new AnnotationView();
         AnnotationService service = new AnnotationService();
         AnnotationController controller = new AnnotationController(view, service);
